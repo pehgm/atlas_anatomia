@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Tagesschrift&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color: #B7E1C1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.logo_header{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px 3px;
+    box-sizing: border-box;
+}
+
+.logo_cruzeiro {
+    box-sizing: border-box;
+    position: relative;
+    left: 60%;
+}
+
+.cruzeiro_sul {
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+menu {
+    background-color: #8ACE9A;
+}
+
+.sub_menu {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.titulo_conteudo{
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 77%;
+    box-sizing: border-box;
+}
+
+.botao_menu{
+    margin: 10px 50px;
+    width: 50px;
+}
+
+main {
+    background-color: #EBEBEB;
+    background: fixed;
+}
+
+.sub_titulo_artigo{
+    font-family: 'Bree Serif', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    padding: 40px;
+}
+
+.texto{
+    margin: 40px 40px;
+}
+
+.texto_principal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    text-align: justify;
+    text-indent: 1.25cm;
+    margin: 0 0 1em 0;
+
+}
+
+footer{
+    background-color: #B7E1C1;
+}
+
+.cargos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3{
+    font-family: 'Bree Serif', sans-serif;
+    font-weight: 100;
+    font-size: 18pt;
+    padding: 20px;
+}
+
+.logo_instagram {
+    width: 80px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.padrao_social{
+    display: flex;
+    align-items: center;
+}
+
+.texto_social{
+    font-family: 'Bree Sarif', sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+}
+
+.ancora{
+    text-decoration: none;
+    color: inherit;
+}
