@@ -131,3 +131,78 @@ h3{
     text-decoration: none;
     color: inherit;
 }
+
+/* Ajustes para telas até 768px (tablets e celulares grandes) */
+@media (max-width: 768px) {
+    
+    body{
+        box-sizing: border-box;
+    }
+    
+    .container {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .logo_vet {
+        width: 8rem;
+    }
+
+    .logo_header {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .logo_cruzeiro {
+        position: static;
+        margin:  auto;
+        display: none;
+    }
+
+    .cruzeiro_sul {
+        width: 20rem;
+        height: auto;
+        display: none;
+    }
+
+    main {
+        background-color: #EBEBEB;
+        background: fixed;
+    }
+
+    .titulo_conteudo {
+        font-size: 22px;
+        text-align: center;
+        position: relative;
+        left: 60%;
+        margin: 20px 0;
+    }
+
+    .botao_menu {
+        width: 3.2rem;
+    }
+
+    .sub_menu {
+        align-items: center;
+    }
+
+    .texto_principal {
+        font-size: 14pt;
+        margin: 10px;
+    }
+
+    .sub_titulo_artigo{
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 16pt;
+        text-align: center;
+    }
+    
+
+    .logo_instagram {
+        width: 50px;
+    }
+}
