@@ -133,7 +133,7 @@ h3{
 }
 
 /* Ajustes para telas até 768px (tablets e celulares grandes) */
-@media (max-width: 768px) {
+@media (max-width: 412px) {
     
     body{
         box-sizing: border-box;
@@ -145,11 +145,11 @@ h3{
     }
 
     .logo_vet {
-        width: 8rem;
+        width: 5rem;
     }
 
     .logo_header {
-        font-size: 40px;
+        font-size: 30px;
         text-align: left;
     }
 
@@ -174,33 +174,47 @@ h3{
         font-size: 22px;
         text-align: center;
         position: relative;
-        left: 60%;
-        margin: 20px 0;
+        left: 30%;
+        bottom: 4px;
     }
 
     .botao_menu {
-        width: 3.2rem;
+        width: 2rem;
     }
 
-    .sub_menu {
+    .sub_menu{
         align-items: center;
     }
 
     .texto_principal {
         font-size: 14pt;
-        margin: 10px;
+        margin: 5px;
     }
 
     .sub_titulo_artigo{
+        font-size: 25pt;
         padding: 20px;
         margin-top: 20px;
     }
 
     h3 {
-        font-size: 16pt;
+        font-size: 12pt;
         text-align: center;
     }
-    
+
+    .padrao_social{
+        margin: 5%;
+    }
+
+    .texto_social{
+        font-size: 10pt;
+    }
+
+    .cargos, .social {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
 
     .logo_instagram {
         width: 50px;
