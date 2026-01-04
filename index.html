@@ -21,17 +21,23 @@
             </div>           
         </div>
     </header>
-    <menu>
-        <div class="sub_menu">
-            <div class="menu">
-                <img class="botao_menu" src="assets/menu-aberto.png" alt="Botão de Menu, selecione o artigo que você deseja!">
-            </div>
 
-            <h2 class="titulo_conteudo">
-                Boas Vindas
-            </h2>
+    <nav class="menu">
+        <button class="menu-toggle">☰</button>
+        <div class="titulo">
+            <h2>Boas Vindas</h2>
         </div>
-    </menu>
+        <div class="menu-modal" id="menuModal">
+            <div class="menu-content">
+                <span class="close-btn">&times;</span>
+                <ul class="menu-list">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <main class="texto_principal_2">
         <div class="sub_titulo_container">
@@ -95,5 +101,7 @@
         </div>
 
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
