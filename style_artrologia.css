@@ -119,7 +119,7 @@ header {
 }
 
 .menu-content a:hover{
-    color: wheat;
+    color: white;
 }
 
 main {
@@ -151,6 +151,7 @@ main {
     position: relative;
     left: 5%;
     text-align: justify;
+    
 }
 
 .texto{
@@ -278,7 +279,7 @@ h3{
     }
 
     .menu-content {
-        background: #8ACE9A;
+        background: #FFD09B;
         width: 250px;
         padding: 20px;
         margin: 100px auto;
@@ -316,7 +317,19 @@ h3{
     }
 
     .menu-content a:hover{
-        color: wheat;
+        color: white;
+    }
+
+    .sub_sub_titulo{
+        font-size: 15pt;
+    }
+
+    .texto_principal_marcacao{
+        font-size: 14pt;
+    }
+
+    .lista_exemplos{
+        font-size: 14pt;
     }
 
     .texto_principal {
