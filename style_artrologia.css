@@ -13,7 +13,7 @@ html, body{
 
 
 header {
-    background-color: #B7E1C1;
+    background-color: #FFECC8;
 }
 
 .container {
@@ -46,7 +46,7 @@ header {
 }
 
 .menu{
-    background-color: #8ACE9A;
+    background-color: #FFD09B;
     padding: 10px 50px;
     display: flex;
     flex-direction: row;
@@ -80,7 +80,7 @@ header {
 }
 
 .menu-content {
-    background: #8ACE9A;
+    background: #FFD09B;
     width: 250px;
     padding: 20px;
     margin: 100px auto;
@@ -127,11 +127,30 @@ main {
     background: fixed;
 }
 
+.sub_sub_titulo{
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .sub_titulo_artigo{
     font-family: 'Bree Serif', sans-serif;
     text-align: center;
     font-size: 30pt;
     padding: 40px;
+}
+
+.texto_principal_marcacao {
+    background-color: rgba(248, 177, 44, 0.644);
+    font-size: 18pt;
+    text-align: justify;
+}
+
+.lista_exemplos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    position: relative;
+    left: 5%;
+    text-align: justify;
 }
 
 .texto{
@@ -148,7 +167,7 @@ main {
 }
 
 footer{
-    background-color: #B7E1C1;
+    background-color: #FFECC8;
 }
 
 .cargos{
