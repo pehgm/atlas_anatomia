@@ -438,4 +438,9 @@ h3{
         left: 70px;
         top: 60px;
     }
+
+    .texto_principal_marcacao_2{
+    font-size: 14pt;
+    text-align: justify;
+    }
 }
