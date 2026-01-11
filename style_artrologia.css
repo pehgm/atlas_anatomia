@@ -60,6 +60,15 @@ header {
     font-size: 12pt;
 }
 
+.voltar_inicio{
+    text-decoration: none;
+    color: #000;
+}
+
+.voltar_inicio:hover{
+    color: #8ACE9A;
+}
+
 .menu-toggle{
     background: none;
     border: none;
