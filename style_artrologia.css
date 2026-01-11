@@ -413,4 +413,29 @@ h3{
     .logo_instagram {
         width: 50px;
     }
+
+    .img{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 50px;
+    gap: 20px;
+
+    }
+
+    .sutura_plana {
+        width: 300px;
+        left: 60px;
+    }
+
+    .sutura_serreada{
+        width: 80%;
+        left: 50px;
+        top: 20px;
+    }
+
+    .gonfose{
+        width: 70%;
+        left: 70px;
+        top: 60px;
+    }
 }
