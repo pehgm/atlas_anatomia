@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Tagesschrift&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color: #D7D3BF;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.logo_header{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px 3px;
+    box-sizing: border-box;
+}
+
+.logo_cruzeiro {
+    box-sizing: border-box;
+    position: relative;
+    left: 60%;
+
+}
+
+.cruzeiro_sul {
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+    border: none;
+}
+
+.menu{
+    background-color: #A59D84;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo{
+    position: relative;
+    left: 85%;
+    top: 7px;
+    font-family: 'Bree Sarif', sans-serif;
+    font-size: 12pt;
+}
+
+.voltar_inicio{
+    text-decoration: none;
+    color: #000;
+}
+
+.voltar_inicio:hover{
+    color: #8ACE9A;
+}
+
+.menu-toggle{
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-modal {
+    display: none;
+    position: fixed;
+    top: 20.5%;
+    right: 40%;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    
+}
+
+.menu-content {
+    background: #A59D84;
+    width: 250px;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000;
+    
+}
+
+.close-btn {
+    float: left;
+    font-size: 45px;
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+.close-btn:hover{
+    color: wheat;
+}
+
+.menu-content ul {
+    list-style: none;
+    padding: 40px 20px 0;
+}
+
+.menu-content li{
+    margin: 10px 0;
+}
+
+.menu-content a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15pt;
+    font-family: 'Bree Sarif', sans-serif;
+}
+
+.menu-content a:hover{
+    color: white;
+}
+
+main {
+    background-color: #EBEBEB;
+    background: fixed;
+}
+
+.sub_sub_titulo{
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub_titulo_artigo{
+    font-family: 'Bree Serif', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    padding: 40px;
+}
+
+.topicos_lista{
+    text-align: justify;
+}
+
+.texto_principal_marcacao {
+    font-size: 18pt;
+    text-align: justify;
+}
+
+.texto_principal_marcacao_2{
+    font-size: 18pt;
+    text-align: justify;
+}
+
+.marcacao_cor{
+    background-color: rgba(248, 177, 44, 0.644);
+}
+
+.lista_exemplos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    position: relative;
+    left: 5%;
+    text-align: justify;
+    
+}
+
+.texto{
+    margin: 40px 40px;
+}
+
+.texto_principal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    text-align: justify;
+    text-indent: 1.25cm;
+    margin: 0 0 1em 0;
+
+}
+
+.img{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.ampliar {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sutura_plana{
+    width: 400px;
+    position: relative;
+    bottom: 50px;
+}
+
+.sutura_serreada{
+    width: 430px;
+    position: relative;
+    bottom: 50px;
+}
+
+.gonfose{
+    width: 400px;
+    position: relative;
+    bottom: 30px;
+}
+
+
+footer{
+    background-color: #D7D3BF;
+}
+
+.cargos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3{
+    font-family: 'Bree Serif', sans-serif;
+    font-weight: 100;
+    font-size: 18pt;
+    padding: 20px;
+}
+
+.logo_instagram {
+    width: 80px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.padrao_social{
+    display: flex;
+    align-items: center;
+}
+
+.texto_social{
+    font-family: 'Bree Sarif', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+.ancora{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Ajustes para telas até 768px (tablets e celulares grandes) */
+@media (max-width: 412px) {
+    
+    body{
+        box-sizing: border-box;
+    }
+    
+    .container {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .logo_vet {
+        width: 5rem;
+    }
+
+    .logo_header {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .logo_cruzeiro {
+        position: static;
+        margin:  auto;
+        display: none;
+    }
+
+    .cruzeiro_sul {
+        width: 20rem;
+        height: auto;
+        display: none;
+    }
+
+    main {
+        background-color: #EBEBEB;
+        background: fixed;
+    }
+
+    .titulo {
+        position: relative;
+        left: 50%;
+    }
+
+    .titulo_conteudo {
+        font-size: 22px;
+        text-align: center;
+        position: relative;
+        left: 30%;
+        bottom: 4px;
+    }
+
+    .menu-toggle{
+        background: none;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .menu-modal {
+        display: none;
+        position: fixed;
+        top: 3%;
+        right: 10%;
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    .menu-content {
+        background: #FFD09B;
+        width: 250px;
+        padding: 20px;
+        margin: 100px auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px #000;
+    }
+
+    .close-btn {
+        float: left;
+        font-size: 45px;
+        position: relative;
+        left: 10px;
+        bottom: 15px;
+        cursor: pointer;
+    }
+
+    .close-btn:hover{
+        color: wheat;
+    }
+
+    .menu-content ul {
+        list-style: none;
+        padding: 40px 20px 0;
+    }
+
+    .menu-content li{
+        margin: 10px 0;
+    }
+
+    .menu-content a {
+        text-decoration: none;
+        color: #000;
+        font-size: 15pt;
+        font-family: 'Bree Sarif', sans-serif;
+    }
+
+    .menu-content a:hover{
+        color: white;
+    }
+
+    .sub_sub_titulo{
+        font-size: 15pt;
+    }
+
+    .texto_principal_marcacao{
+        font-size: 14pt;
+    }
+
+    .lista_exemplos{
+        font-size: 14pt;
+    }
+
+    .texto_principal {
+        font-size: 14pt;
+        margin: 5px;
+    }
+
+    .sub_titulo_artigo{
+        font-size: 25pt;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 12pt;
+        text-align: center;
+    }
+
+    .padrao_social{
+        margin: 5%;
+    }
+
+    .texto_social{
+        font-size: 10pt;
+    }
+
+    .cargos, .social {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+
+    .logo_instagram {
+        width: 50px;
+    }
+
+    .img{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 50px;
+    gap: 20px;
+
+    }
+
+    .sutura_plana {
+        width: 300px;
+        left: 60px;
+    }
+
+    .sutura_serreada{
+        width: 80%;
+        left: 50px;
+        top: 20px;
+    }
+
+    .gonfose{
+        width: 70%;
+        left: 70px;
+        top: 60px;
+    }
+
+    .texto_principal_marcacao_2{
+    font-size: 14pt;
+    text-align: justify;
+    }
+}
