@@ -34,7 +34,7 @@ header {
 .logo_cruzeiro {
     box-sizing: border-box;
     position: relative;
-    left: 60%;
+    left: 50%;
 
 }
 
@@ -134,6 +134,8 @@ header {
 main {
     background-color: #EBEBEB;
     background: fixed;
+    margin: 100px;
+    margin-top: 0;
 }
 
 .sub_sub_titulo{
@@ -184,34 +186,32 @@ main {
 
 }
 
-.img{
+
+.slider{
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-left: 18%;
+}
+.slides{
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px 0;
-    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
 
-.ampliar {
-    cursor: pointer;
-    text-decoration: none;
+.slide {
+    flex-shrink: 0;
+    width: 100%;
+    scroll-snap-type: start;
 }
 
-.sutura_plana{
-    width: 400px;
-    position: relative;
-    bottom: 50px;
-}
-
-.sutura_serreada{
-    width: 430px;
-    position: relative;
-    bottom: 50px;
-}
-
-.gonfose{
-    width: 400px;
-    position: relative;
-    bottom: 30px;
+.slide img {
+    width: 50%;
+    padding-left: 19%;
+    height: auto;
+    display: block;
 }
 
 

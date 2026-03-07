@@ -134,6 +134,8 @@ header {
 main {
     background-color: #EBEBEB;
     background: fixed;
+    margin: 100px;
+    margin-top: 0;
 }
 
 .sub_sub_titulo{

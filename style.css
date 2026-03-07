@@ -34,7 +34,7 @@ header {
 .logo_cruzeiro {
     box-sizing: border-box;
     position: relative;
-    left: 60%;
+    left: 50%;
 
 }
 
@@ -44,6 +44,7 @@ header {
     box-sizing: border-box;
     border: none;
 }
+
 
 .menu{
     background-color: #8ACE9A;
@@ -125,6 +126,8 @@ header {
 main {
     background-color: #EBEBEB;
     background: fixed;
+    margin: 100px;
+    margin-top: 0;
 }
 
 .sub_titulo_artigo{
