@@ -16,6 +16,11 @@ header {
     background-color: #FFECC8;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .container {
     display: flex;
     flex-wrap: nowrap;
@@ -34,30 +39,8 @@ header {
 .logo_cruzeiro {
     box-sizing: border-box;
     position: relative;
-    left: 60%;
+    left: 50%;
 
-}
-
-.cruzeiro_sul {
-    width: 20%;
-    height: auto;
-    box-sizing: border-box;
-    border: none;
-}
-
-.menu{
-    background-color: #FFD09B;
-    padding: 10px 50px;
-    display: flex;
-    flex-direction: row;
-}
-
-.titulo{
-    position: relative;
-    left: 85%;
-    top: 7px;
-    font-family: 'Bree Sarif', sans-serif;
-    font-size: 12pt;
 }
 
 .voltar_inicio{
@@ -69,67 +52,78 @@ header {
     color: #8ACE9A;
 }
 
-.menu-toggle{
-    background: none;
+.cruzeiro_sul {
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
     border: none;
-    font-size: 30px;
-    cursor: pointer;
+}
+
+.barra_de_menu{
+    background-color: #ffd09b;
+    display: flex;
+    padding: 10px;
+}
+
+.dropbtn {
+  background-color: #ffd09b;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 25pt;
+  font-weight: 700;
+}
+
+.titulo_pagina{
     position: relative;
+    left: 73%;
+    top: 23px;
 }
 
-.menu-modal {
-    display: none;
-    position: fixed;
-    top: 20.5%;
-    right: 40%;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    
-}
-
-.menu-content {
-    background: #FFD09B;
-    width: 250px;
-    padding: 20px;
-    margin: 100px auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #000;
-    
-}
-
-.close-btn {
-    float: left;
-    font-size: 45px;
-    position: relative;
-    left: 10px;
-    bottom: 15px;
-    cursor: pointer;
-}
-
-.close-btn:hover{
-    color: wheat;
-}
-
-.menu-content ul {
-    list-style: none;
-    padding: 40px 20px 0;
-}
-
-.menu-content li{
-    margin: 10px 0;
-}
-
-.menu-content a {
-    text-decoration: none;
-    color: #000;
-    font-size: 15pt;
+.assunto_pagina{
     font-family: 'Bree Sarif', sans-serif;
+    font-size: 20pt;
 }
 
-.menu-content a:hover{
-    color: white;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 40px;
 }
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffd09b;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 20px 20px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Bree Sarif', sans-serif;
+  font-size: 16pt;
+  border-bottom: 1px solid #000000;
+  border-radius: 20px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ffd09b;}
 
 main {
     background-color: #EBEBEB;
@@ -313,66 +307,62 @@ h3{
         bottom: 4px;
     }
 
-    .menu-toggle{
-        background: none;
-        border: none;
-        font-size: 30px;
-        font-weight: 600;
-        cursor: pointer;
+    .barra_de_menu{
+        background-color: #ffd09b;
+        display: flex;
+        padding: 5px;
+    }
+
+    .titulo_pagina{
         position: relative;
+        left: 38%;
+        top: 23px;
     }
 
-    .menu-modal {
-        display: none;
-        position: fixed;
-        top: 3%;
-        right: 10%;
-        width: 100%;
-        height: 100%;
-    
-    }
-
-    .menu-content {
-        background: #FFD09B;
-        width: 250px;
-        padding: 20px;
-        margin: 100px auto;
-        border-radius: 8px;
-        box-shadow: 0 0 10px #000;
-    }
-
-    .close-btn {
-        float: left;
-        font-size: 45px;
-        position: relative;
-        left: 10px;
-        bottom: 15px;
-        cursor: pointer;
-    }
-
-    .close-btn:hover{
-        color: wheat;
-    }
-
-    .menu-content ul {
-        list-style: none;
-        padding: 40px 20px 0;
-    }
-
-    .menu-content li{
-        margin: 10px 0;
-    }
-
-    .menu-content a {
-        text-decoration: none;
-        color: #000;
-        font-size: 15pt;
+    .assunto_pagina{
         font-family: 'Bree Sarif', sans-serif;
+        font-size: 16pt;
     }
 
-    .menu-content a:hover{
-        color: white;
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        padding-left: 40px;
     }
+
+
+/* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffd09b;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 20px;
+    }
+
+/* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 20px 20px;
+        text-decoration: none;
+        display: block;
+        font-family: 'Bree Sarif', sans-serif;
+        font-size: 16pt;
+        border-bottom: 1px solid #000000;
+        border-radius: 20px;
+    }
+
+/* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: white;}
+
+/* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {background-color: #ffd09b;}
 
     .sub_sub_titulo{
         font-size: 15pt;
