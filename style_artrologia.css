@@ -34,7 +34,7 @@ header {
 .logo_cruzeiro {
     box-sizing: border-box;
     position: relative;
-    left: 50%;
+    left: 60%;
 
 }
 
@@ -192,13 +192,14 @@ main {
     max-width: 800px;
     overflow: hidden;
     border-radius: 10px;
-    padding-left: 18%;
+    padding-left: 26%;
 }
 .slides{
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    background-color: #ffecc848;
 }
 
 .slide {
@@ -209,9 +210,13 @@ main {
 
 .slide img {
     width: 50%;
-    padding-left: 19%;
+    padding-left: 25%;
     height: auto;
     display: block;
+}
+
+.img_slide_2, .img_slide_3, .img_slide_1{
+    padding: 25px;
 }
 
 
@@ -382,7 +387,7 @@ h3{
 
     .texto_principal {
         font-size: 14pt;
-        margin: 5px;
+        margin: px;
     }
 
     .sub_titulo_artigo{
@@ -443,4 +448,5 @@ h3{
     font-size: 14pt;
     text-align: justify;
     }
+
 }
