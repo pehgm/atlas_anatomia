@@ -227,6 +227,7 @@ h3{
     main {
         background-color: #EBEBEB;
         background: fixed;
+        margin: 0;
     }
 
     .titulo {
