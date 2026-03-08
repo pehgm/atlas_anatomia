@@ -297,6 +297,7 @@ h3{
     main {
         background-color: #EBEBEB;
         background: fixed;
+        margin: 0;
     }
 
     .titulo {
@@ -387,7 +388,7 @@ h3{
 
     .texto_principal {
         font-size: 14pt;
-        margin: px;
+        margin: 5px;
     }
 
     .sub_titulo_artigo{
@@ -419,34 +420,14 @@ h3{
         width: 50px;
     }
 
-    .img{
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0 50px;
-    gap: 20px;
-
-    }
-
-    .sutura_plana {
-        width: 300px;
-        left: 60px;
-    }
-
-    .sutura_serreada{
-        width: 80%;
-        left: 50px;
-        top: 20px;
-    }
-
-    .gonfose{
-        width: 70%;
-        left: 70px;
-        top: 60px;
+    .slider{
+        position: relative;
+        right: 50%;
+        width: 150%;
     }
 
     .texto_principal_marcacao_2{
     font-size: 14pt;
     text-align: justify;
     }
-
 }
