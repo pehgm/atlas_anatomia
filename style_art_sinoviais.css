@@ -13,7 +13,7 @@ html, body{
 
 
 header {
-    background-color: #D7D3BF;
+    background-color: #e6912fa1;
 }
 
 .container {
@@ -55,13 +55,13 @@ header {
 }
 
 .barra_de_menu{
-    background-color: #a59d84;
+    background-color: #e6902f;
     display: flex;
     padding: 10px;
 }
 
 .dropbtn {
-  background-color: #a59d84;
+  background-color: #e6902f;
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -92,7 +92,7 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #a59d84;
+  background-color: #e6902f;
   min-width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -118,7 +118,7 @@ header {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #a59d84;}
+.dropdown:hover .dropbtn {background-color: #e6902f;}
 
 main {
     background-color: #EBEBEB;
@@ -186,6 +186,22 @@ main {
     gap: 20px;
 }
 
+.img_teste img{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 25%;
+    padding: 20px 0;
+}
+
+.legenda_img {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    text-align: center;
+    word-spacing: 2px;
+    padding: 20px 0;
+}
+
 .ampliar {
     cursor: pointer;
     text-decoration: none;
@@ -211,7 +227,7 @@ main {
 
 
 footer{
-    background-color: #D7D3BF;
+    background-color: #e6912fa1;
 }
 
 .cargos{
@@ -332,7 +348,7 @@ h3{
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #a59d84;
+        background-color: #e6912fa1;
         min-width: 100px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
