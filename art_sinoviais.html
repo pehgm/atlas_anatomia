@@ -24,20 +24,22 @@
         </div>
     </header>
 
-        <div class="barra_de_menu">
-            <div class="dropdown">
-                <button class="dropbtn">☰</button>
-                <div class="dropdown-content">
-                    <a href="index.html">Boas Vindas</a>
-                    <a href="artrologia.html">Artrologia</a>
-                    <a href="art_sinoviais.html">Articulações Sinoviais</a>
-                    <a href="pedido.html" target="_blank" rel="external">Fazer Pedido</a>
-                </div>
-            </div>
-            <div class="titulo_pagina">
-                <h2 class="assunto_pagina">Artrologia</h2>
-            </div>
-        </div>
+    <button id="btn-abrir" class="btn-sanduiche">☰ Articulações Sinoviais</button>
+
+<!-- O Menu Escondido -->
+    <nav id="menu-lateral" class="menu-lateral">
+        <button id="btn-fechar" class="btn-fechar">&times;</button> <!-- Símbolo de X -->
+  
+        <ul class="links-menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="artrologia.html">Artrologia</a></li>
+            <li><a href="art_sinoviais.html">Articulações Sinoviais</a></li>
+            <li><a href="pedido.html">Pedidos</a></li>
+        </ul>
+    </nav>
+
+<!-- Fundo escuro que aparece atrás do menu -->
+    <div id="overlay" class="overlay"></div>
 
     <main class="texto_principal_2">
         <div class="sub_titulo_container">

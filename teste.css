@@ -1,0 +1,82 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Estilo do Botão na página */
+.btn-sanduiche {
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  color: #1e293b; /* Azul escuro */
+}
+
+/* --- MENU LATERAL ESCONDIDO --- */
+.menu-lateral {
+  height: 100vh; /* Ocupa toda a altura da tela */
+  width: 300px;
+  background-color: #1e293b;
+  position: fixed;
+  top: 0;
+  left: -300px; /* AQUI ESTÁ O SEGREDO: Esconde o menu 300px para a esquerda */
+  transition: left 0.4s ease; /* Faz o movimento de deslizar ser suave */
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+/* Classe que o JavaScript vai ativar */
+.menu-lateral.aberto {
+  left: 0; /* Traz o menu de volta para a tela */
+}
+
+/* Links dentro do menu */
+.links-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links-menu li a {
+  display: block;
+  padding: 15px 25px;
+  color: #f8fafc;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.2s;
+}
+
+.links-menu li a:hover {
+  background-color: #06b6d4; /* Cor de destaque ao passar o mouse */
+}
+
+/* Botão de Fechar (X) dentro do menu */
+.btn-fechar {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 36px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* --- FUNDO ESCURO (OVERLAY) --- */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none; /* Escondido por padrão */
+  z-index: 999;
+}
+
+/* Classe que o JavaScript vai ativar no fundo */
+.overlay.ativo {
+  display: block;
+}

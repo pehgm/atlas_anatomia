@@ -255,8 +255,82 @@ h3{
     color: inherit;
 }
 
+.btn-sanduiche {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Bree Sarif', sans-serif;
+  display: flex;
+  width: 100%;
+  background-color: #fdbc71;
+  border: none;
+  cursor: pointer;
+  padding: 15px 40px;
+  color: #1e293b; /* Azul escuro */
+}
+
+.btn-fechar {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+}
+
+.btn-fechar:hover {
+    color: #f7c68f;
+}
+
+/* --- MENU LATERAL ESCONDIDO --- */
+.menu-lateral {
+  height: 100vh; /* Ocupa toda a altura da tela */
+  width: 300px;
+  background-color: #fdbc71;
+  position: fixed;
+  top: 0;
+  left: -300px; /* AQUI ESTÁ O SEGREDO: Esconde o menu 300px para a esquerda */
+  transition: left 0.4s ease; /* Faz o movimento de deslizar ser suave */
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+/* Classe que o JavaScript vai ativar */
+.menu-lateral.aberto {
+  left: 0; /* Traz o menu de volta para a tela */
+}
+
+/* Links dentro do menu */
+.links-menu {
+  list-style: none;
+  padding: 0 0 20px;
+  margin: 0;
+}
+
+.links-menu li a {
+  display: block;
+  padding: 15px 25px;
+  margin: 10px;
+  color: #be7f37;
+  font-family: 'Bree Sarif', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.2s;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.links-menu li a:hover {
+    color: #fdbc71;
+}
+
 /* Ajustes para telas até 768px (tablets e celulares grandes) */
-@media (max-width: 412px) {
+@media (max-width: 768px) {
     
     body{
         box-sizing: border-box;
