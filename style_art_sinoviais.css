@@ -418,10 +418,12 @@ h3{
         padding-left: 40px;
     }
 
+
     .img_teste img{
-        max-width: 100%;
+        min-width: 100%;
         height: auto;
         display: block;
+        position: inherit;
     }
 
 
@@ -503,13 +505,6 @@ h3{
         width: 50px;
     }
 
-    .img{
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0 50px;
-    gap: 20px;
-
-    }
 
     .sutura_plana {
         width: 300px;
