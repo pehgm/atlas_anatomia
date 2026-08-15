@@ -418,6 +418,12 @@ h3{
         padding-left: 40px;
     }
 
+    .img_teste img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
 
 /* Dropdown Content (Hidden by Default) */
     .dropdown-content {
