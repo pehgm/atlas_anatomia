@@ -203,6 +203,20 @@ h3{
   color: #1e293b; /* Azul escuro */
 }
 
+.menu_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logovet_menu h3 {
+    position: relative;
+    bottom: 27px;
+    font-size: 18pt;
+    font-family: 'Bree Sarif', sans-serif;
+    font-weight: 700;
+}
+
 .btn-fechar {
     width: 40px;
     height: 40px;

@@ -13,12 +13,7 @@ html, body{
 
 
 header {
-    background-color: #ffd09bcb;
-}
-
-a{
-    text-decoration: none;
-    color: #000000;
+    background-color: #69f387a9;
 }
 
 .container {
@@ -43,6 +38,13 @@ a{
 
 }
 
+.cruzeiro_sul {
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+    border: none;
+}
+
 .voltar_inicio{
     text-decoration: none;
     color: #000;
@@ -52,21 +54,14 @@ a{
     color: #8ACE9A;
 }
 
-.cruzeiro_sul {
-    width: 20%;
-    height: auto;
-    box-sizing: border-box;
-    border: none;
-}
-
 .barra_de_menu{
-    background-color: #fdbc71;
+    background-color: #e7651a;
     display: flex;
     padding: 10px;
 }
 
 .dropbtn {
-  background-color: #fdbc71;
+  background-color: #ceaf8d;
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -97,7 +92,7 @@ a{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fdbc71;
+  background-color: #e6902f;
   min-width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -117,13 +112,13 @@ a{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: white;}
+.dropdown-content a:hover {background-color: wheat}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #fdbc71;}
+.dropdown:hover .dropbtn {background-color: #e6902f;}
 
 main {
     background-color: #EBEBEB;
@@ -144,6 +139,10 @@ main {
     padding: 40px;
 }
 
+.topicos_lista{
+    text-align: justify;
+}
+
 .texto_principal_marcacao {
     font-size: 18pt;
     text-align: justify;
@@ -155,7 +154,7 @@ main {
 }
 
 .marcacao_cor{
-    background-color: rgba(248, 177, 44, 0.644);
+    background-color: rgb(241, 229, 50);
 }
 
 .lista_exemplos{
@@ -180,46 +179,61 @@ main {
 
 }
 
-
-.slider{
-    width: 100%;
-    max-width: 800px;
-    overflow: hidden;
-    border-radius: 10px;
-    padding-left: 26%;
-    position: relative;
-    right: 10%;
-}
-.slides{
+.img{
     display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    background-color: #f1a75d48;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    gap: 20px;
 }
 
-.slide {
-    flex-shrink: 0;
-    width: 100%;
-    scroll-snap-type: start;
-    display: flex;
-    justify-content: center;
-}
-
-.slide img {
-    width: 50%;
-    padding-left: 25%;
-    height: auto;
+.img_teste img{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
-.img_slide_2, .img_slide_3, .img_slide_1{
-    padding: 25px;
+.img_teste3 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.legenda_img {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    text-align: center;
+    word-spacing: 2px;
+    padding: 20px 0;
+}
+
+.ampliar {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sutura_plana{
+    width: 400px;
+    position: relative;
+    bottom: 50px;
+}
+
+.sutura_serreada{
+    width: 430px;
+    position: relative;
+    bottom: 50px;
+}
+
+.gonfose{
+    width: 400px;
+    position: relative;
+    bottom: 30px;
 }
 
 
 footer{
-    background-color: #ffd09bcb;
+    background-color: #69f387a9;
 }
 
 .cargos{
@@ -259,17 +273,26 @@ h3{
     color: inherit;
 }
 
+.barra_verde{
+    background-color: #026810;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
 .btn-sanduiche {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: bold;
   font-family: 'Bree Sarif', sans-serif;
-  display: flex;
-  width: 100%;
-  background-color: #fdbc71;
+  display: inline-block;
+  background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 15px 40px;
-  color: #1e293b; /* Azul escuro */
+  padding: 0 20px;
+  color: #f7f7f8;
+   /* Azul escuro */
 }
 
 .btn-fechar {
@@ -286,14 +309,14 @@ h3{
 }
 
 .btn-fechar:hover {
-    color: #f7c68f;
+    color: #5e9e67;
 }
 
 /* --- MENU LATERAL ESCONDIDO --- */
 .menu-lateral {
   height: 100vh; /* Ocupa toda a altura da tela */
   width: 300px;
-  background-color: #fdbc71;
+  background-color: #026810;
   position: fixed;
   top: 0;
   left: -300px; /* AQUI ESTÁ O SEGREDO: Esconde o menu 300px para a esquerda */
@@ -318,7 +341,7 @@ h3{
   display: block;
   padding: 15px 25px;
   margin: 10px;
-  color: #be7f37;
+  color: #026810;
   font-family: 'Bree Sarif', sans-serif;
   text-decoration: none;
   font-size: 20px;
@@ -330,7 +353,43 @@ h3{
 }
 
 .links-menu li a:hover {
-    color: #fdbc71;
+    color: #5e9e67;
+}
+
+.caixa_voce_sabia {
+    width: auto;
+    height: auto;
+    background-color: #026810;
+    border: 2px solid #8ACE9A;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.caixa_voce_sabia h3{
+    font-size: 30pt;
+}
+
+.caixa_voce_sabia p{
+    font-size: 16pt;
+}
+
+.caixa_lateral{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.texto_lateral {
+    font-size: 20pt;
+    width: 200%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px;
 }
 
 /* Ajustes para telas até 768px (tablets e celulares grandes) */
@@ -338,6 +397,7 @@ h3{
     
     body{
         box-sizing: border-box;
+
     }
     
     .container {
@@ -369,7 +429,7 @@ h3{
     main {
         background-color: #EBEBEB;
         background: fixed;
-        margin: 0;
+        margin: 10px;
     }
 
     .titulo {
@@ -386,7 +446,7 @@ h3{
     }
 
     .barra_de_menu{
-        background-color: #ffd09b;
+        background-color: #a59d84;
         display: flex;
         padding: 5px;
     }
@@ -409,11 +469,27 @@ h3{
         padding-left: 40px;
     }
 
+
+    .img_teste img{
+        min-width: 100%;
+        height: auto;
+        display: block;
+        position: inherit;
+    }
+
+    .img_teste3 img{
+        min-width: 100%;
+        height: auto;
+        display: block;
+        position: inherit;
+    }
+
+
 /* Dropdown Content (Hidden by Default) */
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #ffd09b;
+        background-color: #e6912fa1;
         min-width: 100px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
@@ -433,13 +509,13 @@ h3{
     }
 
 /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color: white;}
+    .dropdown-content a:hover {background-color: wheat;}
 
 /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdown:hover .dropbtn {background-color: #ffd09b;}
+    .dropdown:hover .dropbtn {background-color: #a59d84;}
 
     .sub_sub_titulo{
         font-size: 15pt;
@@ -487,14 +563,45 @@ h3{
         width: 50px;
     }
 
-    .slider{
-        position: relative;
-        right: 50%;
-        width: 150%;
+
+    .sutura_plana {
+        width: 300px;
+        left: 60px;
+    }
+
+    .sutura_serreada{
+        width: 80%;
+        left: 50px;
+        top: 20px;
+    }
+
+    .gonfose{
+        width: 70%;
+        left: 70px;
+        top: 60px;
     }
 
     .texto_principal_marcacao_2{
     font-size: 14pt;
     text-align: justify;
+    }
+
+    .caixa_lateral {
+        display: block;
+        
+    }
+
+    .caixa_voce_sabia{
+        min-width: auto;
+        min-height: auto;
+        position: relative;
+        top: 20px;
+    }
+
+    .texto_lateral{
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 25px;
     }
 }
