@@ -259,17 +259,42 @@ h3{
     color: inherit;
 }
 
+.menu_header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu_header h3 {
+    color: white;
+    position: relative;
+    bottom: 50%;
+    font-size: 18pt;
+    text-align: left;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.barra_menu{
+    background-color: #f08c1b;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
 .btn-sanduiche {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: bold;
   font-family: 'Bree Sarif', sans-serif;
-  display: flex;
-  width: 100%;
-  background-color: #fdbc71;
+  display: inline-block;
+  background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 15px 40px;
-  color: #1e293b; /* Azul escuro */
+  padding: 0 20px;
+  color: #f7f7f8;
+   /* Azul escuro */
 }
 
 .btn-fechar {
@@ -286,14 +311,14 @@ h3{
 }
 
 .btn-fechar:hover {
-    color: #f7c68f;
+    color: #ffd09bcb;
 }
 
 /* --- MENU LATERAL ESCONDIDO --- */
 .menu-lateral {
   height: 100vh; /* Ocupa toda a altura da tela */
   width: 300px;
-  background-color: #fdbc71;
+  background-color: #f08c1b;
   position: fixed;
   top: 0;
   left: -300px; /* AQUI ESTÁ O SEGREDO: Esconde o menu 300px para a esquerda */
@@ -318,7 +343,7 @@ h3{
   display: block;
   padding: 15px 25px;
   margin: 10px;
-  color: #be7f37;
+  color: #f08c1b;
   font-family: 'Bree Sarif', sans-serif;
   text-decoration: none;
   font-size: 20px;
@@ -330,8 +355,9 @@ h3{
 }
 
 .links-menu li a:hover {
-    color: #fdbc71;
+    color: #ffd09bcb;
 }
+
 
 /* Ajustes para telas até 768px (tablets e celulares grandes) */
 @media (max-width: 768px) {

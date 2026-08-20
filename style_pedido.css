@@ -210,6 +210,22 @@ h3{
     color: inherit;
 }
 
+.menu_header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu_header h3 {
+    color: white;
+    position: relative;
+    bottom: 50%;
+    font-size: 18pt;
+    text-align: left;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
 /* Estilo do Botão na página */
 .btn-sanduiche {
   font-size: 30px;
