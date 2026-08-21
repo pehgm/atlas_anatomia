@@ -171,6 +171,7 @@ input[type=submit]:hover {
 
 footer{
     background-color: #B7E1C1;
+    display: block;
 }
 
 .cargos{

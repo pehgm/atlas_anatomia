@@ -12,46 +12,33 @@ html, body{
 }
 
 
-header {
-    background-color: #e6912fa1;
+.cabecalho {
+  background-color: #f0b364;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
-.container {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    box-sizing: border-box;
-
+.fundo_wallpaper {
+  width: 50%;
+  margin-left: 45%;
+  position: relative;
+  top: 27px;
 }
 
-.logo_header{
-    font-family: 'Amaranth', sans-serif;
-    font-size: 50px;
-    text-shadow: 1px 1px 3px;
-    box-sizing: border-box;
-}
-
-.logo_cruzeiro {
-    box-sizing: border-box;
-    position: relative;
-    left: 50%;
+.nome_site {
+  color: black;
+  position: relative;
+  left: 150px;
+  font-size: 17pt;
 
 }
 
-.cruzeiro_sul {
-    width: 20%;
-    height: auto;
-    box-sizing: border-box;
-    border: none;
-}
-
-.voltar_inicio{
-    text-decoration: none;
-    color: #000;
-}
-
-.voltar_inicio:hover{
-    color: #8ACE9A;
+.logo_med_vet{
+  width: 350%;
+  position: relative;
+  left: 20px;
 }
 
 .barra_de_menu{
@@ -227,7 +214,7 @@ main {
 
 
 footer{
-    background-color: #e6912fa1;
+    background-color: #f0b364;
 }
 
 .cargos{
@@ -301,7 +288,7 @@ h3{
   border: none;
   cursor: pointer;
   padding: 0 20px;
-  color: #f7f7f8;
+  color: #000000;
    /* Azul escuro */
 }
 
@@ -375,30 +362,34 @@ h3{
 
     }
     
-    .container {
-        padding: 20px;
-        box-sizing: border-box;
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
     }
 
-    .logo_vet {
-        width: 5rem;
+    .fundo_wallpaper {
+        position: relative;
+        min-width: 70%;
+        right: 17%;
+        padding: 0 0 7px;
+        display: block;
     }
 
-    .logo_header {
-        font-size: 30px;
-        text-align: left;
-    }
-
-    .logo_cruzeiro {
-        position: static;
-        margin:  auto;
+    .nome_site {
+        font-size: 12pt;
+        position: relative;
+        left: 20px;
+        color: #000000;
         display: none;
+        
     }
 
-    .cruzeiro_sul {
-        width: 20rem;
-        height: auto;
-        display: none;
+    .logo_vet img{
+        width: 500%;
+        position: relative;
+        top: 14px;
+        left: 5%;
     }
 
     main {

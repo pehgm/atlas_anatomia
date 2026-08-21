@@ -11,47 +11,33 @@ html, body{
     overflow-x: hidden;
 }
 
-
-header {
-    background-color: #69f387a9;
+.cabecalho {
+  background-color: #f6b4a0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
-.container {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    box-sizing: border-box;
-
+.fundo_wallpaper {
+  width: 50%;
+  margin-left: 45%;
+  position: relative;
+  top: 27px;
 }
 
-.logo_header{
-    font-family: 'Amaranth', sans-serif;
-    font-size: 50px;
-    text-shadow: 1px 1px 3px;
-    box-sizing: border-box;
-}
-
-.logo_cruzeiro {
-    box-sizing: border-box;
-    position: relative;
-    left: 50%;
+.nome_site {
+  color: white;
+  position: relative;
+  left: 150px;
+  font-size: 17pt;
 
 }
 
-.cruzeiro_sul {
-    width: 20%;
-    height: auto;
-    box-sizing: border-box;
-    border: none;
-}
-
-.voltar_inicio{
-    text-decoration: none;
-    color: #000;
-}
-
-.voltar_inicio:hover{
-    color: #8ACE9A;
+.logo_med_vet{
+  width: 350%;
+  position: relative;
+  left: 20px;
 }
 
 .barra_de_menu{
@@ -202,7 +188,7 @@ main {
 
 .legenda_img {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16pt;
+    font-size: 10pt;
     text-align: center;
     word-spacing: 2px;
     padding: 20px 0;
@@ -233,7 +219,7 @@ main {
 
 
 footer{
-    background-color: #69f387a9;
+    background-color: #f6b4a0;
 }
 
 .cargos{
@@ -274,7 +260,7 @@ h3{
 }
 
 .barra_menu{
-    background-color: #026810;
+    background-color: #7c2207;
     width: 100%;
     padding: 10px 20px;
     box-sizing: border-box;
@@ -388,7 +374,7 @@ h3{
     width: 200%;
     height: 100%;
     font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
+    text-align: left;
     margin: 20px;
 }
 
@@ -399,32 +385,39 @@ h3{
         box-sizing: border-box;
 
     }
-    
-    .container {
-        padding: 20px;
-        box-sizing: border-box;
+
+
+
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
     }
 
-    .logo_vet {
-        width: 5rem;
+    .fundo_wallpaper {
+        position: relative;
+        min-width: 70%;
+        right: 17%;
+        padding: 0 0 7px;
+        display: block;
     }
 
-    .logo_header {
-        font-size: 30px;
-        text-align: left;
-    }
-
-    .logo_cruzeiro {
-        position: static;
-        margin:  auto;
+    .nome_site {
+        font-size: 12pt;
+        position: relative;
+        left: 20px;
+        color: #000000;
         display: none;
+        
     }
 
-    .cruzeiro_sul {
-        width: 20rem;
-        height: auto;
-        display: none;
+    .logo_vet img{
+        width: 500%;
+        position: relative;
+        top: 14px;
+        left: 5%;
     }
+
 
     main {
         background-color: #EBEBEB;
@@ -582,8 +575,8 @@ h3{
     }
 
     .texto_principal_marcacao_2{
-    font-size: 14pt;
-    text-align: justify;
+        font-size: 14pt;
+        text-align: justify;
     }
 
     .caixa_lateral {
@@ -603,5 +596,6 @@ h3{
         height: auto;
         position: relative;
         top: 25px;
+        text-align: justify;
     }
 }
