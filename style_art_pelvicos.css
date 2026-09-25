@@ -12,7 +12,7 @@ html, body{
 }
 
 .cabecalho {
-  background-color: #f6b4a0;
+  background-color: #14661e;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -219,7 +219,7 @@ main {
 
 
 footer{
-    background-color: #f6b4a0;
+    background-color: #026810;
 }
 
 .cargos{
@@ -232,6 +232,7 @@ h3{
     font-weight: 100;
     font-size: 18pt;
     padding: 20px;
+    color: white;
 }
 
 .logo_instagram {
@@ -252,6 +253,7 @@ h3{
     font-family: 'Bree Sarif', sans-serif;
     font-size: 14pt;
     font-weight: 600;
+    color: white;
 }
 
 .ancora{
@@ -260,7 +262,7 @@ h3{
 }
 
 .barra_menu{
-    background-color: #7c2207;
+    background-color: #0a4512;
     width: 100%;
     padding: 10px 20px;
     box-sizing: border-box;
@@ -365,21 +367,20 @@ h3{
 
 .caixa_lateral{
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
 }
 
 .texto_lateral {
-    font-size: 20pt;
-    width: 200%;
-    height: 100%;
     font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    margin: 20px;
+    font-size: 20pt;
+    text-align: justify;
+    text-indent: 1.25cm;
+    margin: 0 0 1em 0;
+    padding: 30px 0 0 0;
+
 }
 
 /* Ajustes para telas até 768px (tablets e celulares grandes) */
-@media (max-width: 768px) {
+@media (max-width: 844px) {
     
     body{
         box-sizing: border-box;
@@ -581,21 +582,21 @@ h3{
 
     .caixa_lateral {
         display: block;
+        text-align: justify;
+        padding: 60px 0 20px 0;
         
     }
 
-    .caixa_voce_sabia{
+    .caixa_voce_sabia {
+        margin: -50px;
         min-width: auto;
-        min-height: auto;
-        position: relative;
-        top: 20px;
+        min-width: auto;
+        
     }
 
-    .texto_lateral{
-        width: auto;
-        height: auto;
-        position: relative;
-        top: 25px;
-        text-align: justify;
+    .texto_lateral, p {
+        font-size: 14pt;
+        margin: 5px;
+        padding: 60px 0 0 0;
     }
 }

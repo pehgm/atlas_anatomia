@@ -14,7 +14,7 @@ html, body{
 
 
 .cabecalho {
-  background-color: #14661e;
+  background-color: #12661c;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -200,7 +200,7 @@ h3{
 }
 
 .barra_menu{
-    background-color: #0a4412;
+    background-color: #0a4512;
     width: 100%;
     padding: 10px 20px;
     box-sizing: border-box;
