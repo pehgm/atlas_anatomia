@@ -232,7 +232,6 @@ h3{
     font-weight: 100;
     font-size: 18pt;
     padding: 20px;
-    color: white;
 }
 
 .logo_instagram {
@@ -384,7 +383,6 @@ h3{
     
     body{
         box-sizing: border-box;
-
     }
 
 
@@ -423,7 +421,7 @@ h3{
     main {
         background-color: #EBEBEB;
         background: fixed;
-        margin: 10px;
+        margin: 0;
     }
 
     .titulo {
@@ -512,7 +510,7 @@ h3{
     .dropdown:hover .dropbtn {background-color: #a59d84;}
 
     .sub_sub_titulo{
-        font-size: 15pt;
+        font-size: 20pt;
     }
 
     .texto_principal_marcacao{
@@ -524,39 +522,22 @@ h3{
     }
 
     .texto_principal {
-        font-size: 14pt;
-        margin: 5px;
+        font-size: 17pt;
+        
+        text-align: none;
     }
 
     .sub_titulo_artigo{
         font-size: 25pt;
-        padding: 20px;
-        margin-top: 20px;
+    }
+
+    .texto_principal_2 h3{
+        text-align: left;
     }
 
     h3 {
         font-size: 12pt;
-        text-align: center;
     }
-
-    .padrao_social{
-        margin: 5%;
-    }
-
-    .texto_social{
-        font-size: 10pt;
-    }
-
-    .cargos, .social {
-        display: inline-block;
-        vertical-align: middle;
-    }
-
-
-    .logo_instagram {
-        width: 50px;
-    }
-
 
     .sutura_plana {
         width: 300px;
@@ -576,8 +557,12 @@ h3{
     }
 
     .texto_principal_marcacao_2{
-        font-size: 14pt;
+        font-size: 16pt;
         text-align: justify;
+    }
+
+    .texto, .texto_principal_marcacao_2 {
+        padding: 5px 0 0 0;
     }
 
     .caixa_lateral {
@@ -588,15 +573,47 @@ h3{
     }
 
     .caixa_voce_sabia {
-        margin: -50px;
+        margin: -30px;
         min-width: auto;
         min-width: auto;
         
     }
 
     .texto_lateral, p {
-        font-size: 14pt;
+        font-size: 16pt;
         margin: 5px;
         padding: 60px 0 0 0;
+        text-align: none;
     }
+
+    .cargos, .social {
+        display: none;
+    }
+
+    .rodape{
+        display: block;
+        min-width: auto;
+        min-height: auto;
+    }
+
+    .home, .social_icon {
+        width: 40%;
+        padding: 10px 0 20px 10px;
+    }
+
+    .footer_celular{
+        display: flex;
+        align-items: center;
+    }
+
+    .footer_celular a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer_celular_2 {
+        display: flex;
+        align-items: center;
+    }
+
 }

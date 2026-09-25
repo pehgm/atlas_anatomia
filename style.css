@@ -119,7 +119,7 @@ main {
     font-family: 'Bree Serif', sans-serif;
     text-align: center;
     font-size: 30pt;
-    padding: 40px;
+    
 }
 
 .texto{
@@ -149,7 +149,7 @@ h3{
     font-family: 'Bree Serif', sans-serif;
     font-weight: 100;
     font-size: 18pt;
-    padding: 20px;
+    
 }
 
 .logo_instagram {
@@ -340,18 +340,10 @@ h3{
         bottom: 4px;
     }
 
-
-
     
     .texto_principal {
         font-size: 14pt;
         margin: 5px;
-    }
-
-    .sub_titulo_artigo{
-        font-size: 25pt;
-        padding: 20px;
-        margin-top: 20px;
     }
 
     h3 {
