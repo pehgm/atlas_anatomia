@@ -219,7 +219,7 @@ main {
 
 
 footer{
-    background-color: #026810;
+    background-color: #ffd09bcb;
 }
 
 .cargos{
@@ -252,7 +252,6 @@ h3{
     font-family: 'Bree Sarif', sans-serif;
     font-size: 14pt;
     font-weight: 600;
-    color: white;
 }
 
 .ancora{
@@ -586,34 +585,22 @@ h3{
         text-align: none;
     }
 
+    .padrao_social{
+        margin: 5%;
+    }
+
+    .texto_social{
+        font-size: 10pt;
+    }
+
     .cargos, .social {
-        display: none;
+        display: inline-block;
+        vertical-align: middle;
     }
 
-    .rodape{
-        display: block;
-        min-width: auto;
-        min-height: auto;
-    }
 
-    .home, .social_icon {
-        width: 40%;
-        padding: 10px 0 20px 10px;
-    }
-
-    .footer_celular{
-        display: flex;
-        align-items: center;
-    }
-
-    .footer_celular a {
-        text-decoration: none;
-        color: white;
-    }
-
-    .footer_celular_2 {
-        display: flex;
-        align-items: center;
+    .logo_instagram {
+        width: 50px;
     }
 
 }

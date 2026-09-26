@@ -355,7 +355,7 @@ h3{
 
 
 /* Ajustes para telas até 768px (tablets e celulares grandes) */
-@media (max-width: 768px) {
+@media (max-width: 844px) {
     
     body{
         box-sizing: border-box;
@@ -395,7 +395,7 @@ h3{
     main {
         background-color: #EBEBEB;
         background: fixed;
-        margin: 10px;
+        margin: 0px;
     }
 
     .titulo {
@@ -477,49 +477,36 @@ h3{
     .dropdown:hover .dropbtn {background-color: #a59d84;}
 
     .sub_sub_titulo{
-        font-size: 15pt;
+        font-size: 20pt;
     }
 
     .texto_principal_marcacao{
-        font-size: 14pt;
+        font-size: 17pt;
+        padding: 15px 0 0 0;
     }
 
     .lista_exemplos{
-        font-size: 14pt;
+        font-size: 15pt;
+        margin: 5px;
     }
 
     .texto_principal {
-        font-size: 14pt;
-        margin: 5px;
+        font-size: 17pt;
+        text-align: none;
     }
 
     .sub_titulo_artigo{
         font-size: 25pt;
-        padding: 20px;
-        margin-top: 20px;
+        text-align: left;
     }
 
     h3 {
         font-size: 12pt;
-        text-align: center;
+
     }
 
-    .padrao_social{
-        margin: 5%;
-    }
-
-    .texto_social{
-        font-size: 10pt;
-    }
-
-    .cargos, .social {
-        display: inline-block;
-        vertical-align: middle;
-    }
-
-
-    .logo_instagram {
-        width: 50px;
+    .cargos, .social{
+        display: none;
     }
 
 

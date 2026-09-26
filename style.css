@@ -333,43 +333,28 @@ h3{
     }
 
     .titulo_conteudo {
-        font-size: 22px;
+        font-size: 25px;
         text-align: center;
         position: relative;
         left: 30%;
-        bottom: 4px;
+    }
+
+    .sub_titulo_artigo {
+        font-size: 25pt;
+        padding: 20px 0 0 0;
     }
 
     
     .texto_principal {
-        font-size: 14pt;
-        margin: 5px;
+        font-size: 18pt;
+        
     }
 
     h3 {
         font-size: 12pt;
-        text-align: center;
-    }
-
-    .padrao_social{
-        margin: 5%;
-    }
-
-    .texto_social{
-        font-size: 10pt;
     }
 
     .cargos, .social {
-        display: inline-block;
-        vertical-align: middle;
-    }
-
-
-    .logo_instagram {
-        width: 50px;
-    }
-
-    .footer{
-        display: block;
+        display: none;
     }
 }
