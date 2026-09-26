@@ -585,19 +585,9 @@ h3{
         text-align: none;
     }
 
-    .padrao_social{
-        margin: 5%;
+    .cargos, .social{
+        display: none;
     }
-
-    .texto_social{
-        font-size: 10pt;
-    }
-
-    .cargos, .social {
-        display: inline-block;
-        vertical-align: middle;
-    }
-
 
     .logo_instagram {
         width: 50px;
