@@ -41,7 +41,7 @@
             <li><a href="artrologia.html">Artrologia</a></li>
             <li><a href="art_sinoviais.html">Articulações Sinoviais</a></li>
             <li><a href="art_pelvicos.html">Articulação dos Membros Pélvicos</a></li>
-            <li><a href="social.html">Redes Sociais</a></li>
+            <li class="social_celular"><a href="social_celular.html">Redes Sociais</a></li>
             <li><a href="pedido.html">Pedidos</a></li>
         </ul>
     </nav>
@@ -132,7 +132,25 @@
             </p>
 
         </div>
+        <div class="quiz">
+            <div class="quiz-container">
+                <h2>Quiz de Artrologia Sinovial</h2>
+            </div>
+            <div id="quiz">
+                <h3 id="question"></h3>
+                <div id="options"></div>
+
+                <button class="botao" onclick="nextQuestion()">
+                Próxima
+                </button>
+            </div>
+
+            <div id="result"></div>
+        </div>
     </main>
+
+
+
 
     <footer class="rodape">
         
@@ -172,5 +190,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="script_quiz_art_s.js"></script>
 </body>
 </html>

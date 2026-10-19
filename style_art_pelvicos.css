@@ -219,12 +219,13 @@ main {
 
 
 footer{
-    background-color: #ffd09bcb;
+    background-color: #026810;
 }
 
 .cargos{
     display: flex;
     justify-content: space-evenly;
+    color: white;
 }
 
 h3{
@@ -241,6 +242,7 @@ h3{
 .social {
     display: flex;
     justify-content: space-evenly;
+    color: white;
 }
 
 .padrao_social{
@@ -375,6 +377,10 @@ h3{
     margin: 0 0 1em 0;
     padding: 30px 0 0 0;
 
+}
+
+.social_celular {
+    display: none;
 }
 
 /* Ajustes para telas até 768px (tablets e celulares grandes) */

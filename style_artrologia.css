@@ -165,7 +165,7 @@ main {
 
 .slider{
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     overflow: hidden;
     border-radius: 10px;
     padding-left: 26%;
@@ -340,6 +340,85 @@ h3{
     color: #ffd09bcb;
 }
 
+.social_celular {
+    display: none;
+}
+
+.quiz-container{
+    background: rgb(253, 248, 231);
+    width:95%;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+}
+
+h2{
+    text-align: center;
+    font-size: 30pt;
+}
+
+#question{
+    margin-bottom: 15px;
+}
+
+.option{
+    background: #f1f1f1;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.option:hover{
+    background: #ff9b29;
+}
+
+.selected{
+    background: #ff9b29;
+}
+
+.botao{
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    background: #ffdaaf;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background: #fcb463;
+}
+
+#result{
+    display: none;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.correct {
+    background-color: #4CAF50 !important;
+    color: white;
+}
+
+.wrong {
+    background-color: #f44336 !important;
+    color: white;
+}
+
+.option {
+    pointer-events: auto;
+}
+
+.option.disabled {
+    pointer-events: none;
+}
 
 /* Ajustes para telas até 768px (tablets e celulares grandes) */
 @media (max-width: 768px) {

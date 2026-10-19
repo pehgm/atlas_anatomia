@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/veterinario.png" type="image/x-icon">
     <link rel="stylesheet" href="style_artrologia.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Artrologia: Atlas Anatomia - Med. Vet</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
             <li><a href="artrologia.html">Artrologia</a></li>
             <li><a href="art_sinoviais.html">Articulações Sinoviais</a></li>
             <li><a href="art_pelvicos.html">Articulação dos Membros Pélvicos</a></li>
-            <li><a href="social.html">Redes Sociais</a></li>
+            <li class="social_celular"><a href="social_celular.html">Redes Sociais</a></li>
             <li><a href="pedido.html">Pedidos</a></li>
         </ul>
     </nav>
@@ -147,7 +148,24 @@
 
 
         </div>
+        <div class="quiz">
+            <div class="quiz-container">
+                <h2>Quiz de Artrologia Sinovial</h2>
+            </div>
+            <div id="quiz">
+                <h3 id="question"></h3>
+                <div id="options"></div>
+
+                <button class="botao" onclick="nextQuestion()">
+                Próxima
+                </button>
+            </div>
+
+            <div id="result"></div>
+        </div>
     </main>
+
+
 
     <footer class="rodape">
         
@@ -187,5 +205,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="script_quiz_artrologia.js"></script>
 </body>
 </html>
