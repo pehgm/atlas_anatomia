@@ -612,4 +612,28 @@ h2{
     font-size: 14pt;
     text-align: justify;
     }
+
+    .quiz-container {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all 0.3 ease;
+    }
+
+    .botao{
+        width: 70%;
+        position: relative;
+        left: 65px;
+        transition: all 0.3 ease;
+    }
+
+    .titulo_pergunta_2{
+        text-align: center;
+        transition: all 0.3 ease;
+    }
+
+    .respostas{
+        margin: 4px;
+        transition: all 0.3 ease;
+    }
 }

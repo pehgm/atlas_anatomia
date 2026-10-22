@@ -384,7 +384,7 @@ h2{
     padding: 12px;
     margin-top: 15px;
     border: none;
-    background: #ffdaaf;
+    background: #f9ca94;
     color: white;
     font-size: 16px;
     border-radius: 8px;
@@ -431,6 +431,7 @@ h2{
         display: flex;
         justify-content: space-between;
         padding: 10px 0;
+        
     }
 
     .fundo_wallpaper {
@@ -549,18 +550,16 @@ h2{
     .texto_principal {
         font-size: 17pt;
         margin: 5px;
-        padding: 10px 0 0 0;
+        padding: 2px 0 0 0;
     }
 
     .sub_titulo_artigo{
         font-size: 25pt;
         text-align: left;
-        
     }
 
     h3 {
         font-size: 12pt;
-        
     }
 
     .cargos, .social {
@@ -577,4 +576,29 @@ h2{
     font-size: 17pt;
     
     }
+
+    .quiz-container {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all 0.3 ease;
+    }
+
+    .botao{
+        width: 70%;
+        position: relative;
+        left: 65px;
+        transition: all 0.3 ease;
+    }
+
+    .titulo_pergunta_2{
+        text-align: center;
+        transition: all 0.3 ease;
+    }
+
+    .respostas{
+        margin: 4px;
+        transition: all 0.3 ease;
+    }
+
 }
