@@ -22,3 +22,8 @@ btnFechar.addEventListener('click', fecharMenu);
 
 // Fecha o menu se o usuário clicar no fundo escuro
 overlay.addEventListener('click', fecharMenu);
+
+
+
+
+[...document.querySelectorAll('#panel a')].map(a => a.getAttribute('href'))
